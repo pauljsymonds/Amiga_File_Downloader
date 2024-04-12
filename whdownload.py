@@ -1,7 +1,7 @@
 #####################################################
 #                                                   #
-#  This is tested on Mac OS X for Window you will   #
-#   need to change path comment below.              #
+#  This is tested on Mac OS X but should work for   #
+#  Windows                                          #
 #                                                   #
 #   This script will download all files listed in   #
 #    urls to your local machine approx 8 mins with  #
