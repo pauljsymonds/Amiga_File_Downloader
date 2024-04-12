@@ -3421,13 +3421,8 @@ def download_file(url):
 
 
 if __name__ == "__main__":
-    # On Mac & Linux, creates folder in home directory.
-    if os.name == 'posix':
-        filePath = pathlib.Path.home().joinpath('my-amiga-games')
-    # on Windows creates folder relative to where the code is run
-    if os.name == 'nt':
-        filePath = os.getcwd()
 
+    filePath = pathlib.Path.home().joinpath('my-amiga-games')
     if not os.path.exists(filePath):
         os.makedirs(filePath)
 
